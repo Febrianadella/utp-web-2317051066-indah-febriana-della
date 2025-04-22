@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello, I'm Della</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23333' fill-opacity='0.1'%3E%3Ccircle cx='1' cy='1' r='1' /%3E%3C/g%3E%3C/svg%3E");
+      z-index: -1;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navigation -->
+  <header class="bg-gray-900 shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-yellow-400">Indah Febriana Della</h1>
+      <nav>
+        <ul class="flex space-x-6 text-sm font-medium">
+          <li><a href="index.html" class="hover:text-yellow-400">Home</a></li>
+          <li><a href="tentang.html" class="hover:text-yellow-400">About</a></li>
+          <li><a href="karya.html" class="hover:text-yellow-400">Works</a></li>
+          <li><a href="blog.html" class="hover:text-yellow-400">Blog</a></li>
+          <li><a href="kontak.html" class="hover:text-yellow-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center bg-transparent">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center px-6 gap-12">
+      <!-- Text -->
+      <div class="flex-1 text-center md:text-left">
+        <h2 class="text-5xl font-extrabold mb-4">Hi, I'm Della</h2>
+        <p class="text-xl mb-6 text-gray-300">Computer Science Student</p>
+        <a href="karya.html" class="inline-block bg-yellow-400 text-black px-6 py-3 rounded-full hover:bg-yellow-300 transition font-semibold">
+          See My Works
+        </a>
+      </div>
+     <!-- Gambar -->
+<div class="flex-1 flex justify-center">
+    <img 
+      src="assets/img/pp.jpg" 
+      alt="Foto Della" 
+      class="w-55 h-55 object-cover border-4 border-yellow-300 shadow-lg"
+    >
+  </div>
+  
+  </section>
+
+  <!-- About Section -->
+  <section class="py-20 px-6 bg-transparent">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4 text-yellow-400">About This Website</h3>
+      <p class="text-gray-300 leading-relaxed">
+        Welcome to my portfolio. This website is part of my final project for the Web Programming course. 
+        Here, you can find information about myself, the works I have created, and some writings on my personal blog.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-400 py-6 text-center text-sm text-white font-semibold">
+    © 2025 Della. Created with HTML & Tailwind CSS
+  </footer>
+
+</body>
+</html>
